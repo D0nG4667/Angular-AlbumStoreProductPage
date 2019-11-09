@@ -12,7 +12,7 @@ import { ProductTracklistingComponent } from "./product-tracklisting/product-tra
 import { ProductListComponent } from "./product-list/product-list.component";
 
 const appRoutes: Routes = [
-  { path: "Product", component: ProductListComponent }
+  { path: "products", component: ProductListComponent }
 ];
 @NgModule({
   declarations: [
